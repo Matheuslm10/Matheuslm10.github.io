@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Matheus L. Machado</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="image avatar"><img src="images/fotoperfil.jpg" alt="" /></a>
+					<h1>Olá! Meu nome é<br /> 
+                        <strong>Matheus L. Machado</strong><br />
+					Seja bem-vind@!<br /></h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+                        <header class="major">
+							<h2>Simulador de Encaminhamento de Pacotes</h2>
+						</header>
+                        <div class="box alt">
+								<div class="row gtr-50 gtr-uniform">
+									<div class="col-12"><span class="image fit"><img src="images/thumbs/redes.jpg" alt="" /></span></div>
+								</div>
+							</div>
+						
+						<p>O objetivo desse trabalho, da disciplina de Redes de Computadores, era implementar um sistema que simulasse o encaminhamento de pacotes em uma rede, passando por vários roteadores. O trabalho foi realizado em grupo, e atingimos a nota máxima.</p>
+                        
+                        <h2>Funcionamento</h2>
+                        
+                        <p>O sistema é composto por 2 programas, o primeiro apenas cria pacotes de mensagem e envia para o segundo programa. O segundo, simula a função de um roteador, encaminhando o pacote para o próximo roteador ou entregando a seu destino final, de acordo com a tabela de roteamento. O sistema não possui interface gráfica. </p>
+                            
+                        <p>No gif abaixo, é mostrado a execução do sistema na IDE Eclipse. As três abas de console (de baixo para cima), representam os roteadores, e a quarta, o programa emissor. Nesse exemplo, o programa emissor envia uma mensagem "Olá, mundo!" para o programa roteador da aba debaixo, e este então encaminha para o debaixo, até chegar no último, que mostra a mensagem recebida.</p>
+                        
+                        <center><img src="images/fulls/Simulador.gif" height="700px" alt=""/></center>
+                        
+                        <br/>
+                        
+                        <h2>Implementação</h2>
+                        
+                        <p>Foi utilizada a linguagem Java para a implementação do sistema. Foi bem trabalhoso para enterdermos a dinâmica do encaminhamento de pacotes e a utilização das tabelas de roteamento, porém no final o trabalho permitiu que todos no grupo tivesse um grande entendimento sobre o conteúdo da disciplina.</p>
+                        
+                        <ul class="actions">
+				            <li><a href="controlefuncionarios.html" class="button">Anterior</a></li>
+                            <li><a href="#" class="button">Próximo</a></li>
+				        </ul>
+
+					</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
