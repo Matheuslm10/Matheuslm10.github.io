@@ -74,6 +74,10 @@ input, select, textarea {
 
 /* Basic */
 
+    #obs{
+        margin-top: -3.5em;
+    }
+
 	html {
 		box-sizing: border-box;
 	}
