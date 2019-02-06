@@ -2247,6 +2247,13 @@ input, select, textarea {
 			vertical-align: middle;
 		}
 
+        .botao_anterior{
+            float: left;
+        }
+        .botao_proximo{
+            float: right;
+        }
+
 		ul.actions.special {
 			-moz-justify-content: center;
 			-webkit-justify-content: center;
