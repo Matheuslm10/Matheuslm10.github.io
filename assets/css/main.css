@@ -2450,7 +2450,7 @@ input, select, textarea {
 		height: 3.15em;
 		height: calc(2.75em + 6px);
 		line-height: 2.75em;
-		min-width: 10em;
+		min-width: 8em;
 		padding: 0 1.5em;
 		text-align: center;
 		text-decoration: none;
@@ -3135,6 +3135,14 @@ input, select, textarea {
             h5 {
                 margin-bottom: 1.2em;
                 text-align: center;
+            }
+        
+            .botao_proximo{
+                float: left;
+                
+            }
+            .botao_proximo{
+                float: right;
             }
         
             
