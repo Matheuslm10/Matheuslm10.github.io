@@ -2996,6 +2996,10 @@ input, select, textarea {
 				padding: 6em 3em 3em 3em;
 				width: 30%;
 			}
+        
+            iframe {
+                height: 0em;
+            }
 
 				#header h1 {
 					font-size: 1.25em;
@@ -3042,6 +3046,9 @@ input, select, textarea {
             
             video {
                 height: 20em;
+            }
+            iframe {
+                height: 0em;
             }
 
 		/* List */
