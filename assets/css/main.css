@@ -3147,6 +3147,10 @@ input, select, textarea {
                 text-align: center;
             }
         
+            #subir{
+                margin-top: -3em;
+            }
+        
             .botao_proximo{
                 float: left;
                 
