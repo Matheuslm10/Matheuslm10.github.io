@@ -3135,7 +3135,7 @@ input, select, textarea {
 			}
         
             iframe {
-                height: 30em;
+                height: 0em;
             }
         
             video {
@@ -3148,16 +3148,19 @@ input, select, textarea {
             }
         
             #subir{
-                margin-top: -30em;
+                /*margin-top: -30em;*/
             }
         
             .botao_proximo{
                 float: left;
-                
+                z-index: 5;
             }
             .botao_proximo{
                 float: right;
             }
+        a{
+            z-index: 5;
+        }
         
             
 
