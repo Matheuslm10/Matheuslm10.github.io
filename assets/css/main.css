@@ -2997,6 +2997,10 @@ input, select, textarea {
 				width: 30%;
 			}
         
+            video {
+                height: 20em;
+            }
+        
             iframe {
                 height: 0em;
             }
