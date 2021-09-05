@@ -3071,7 +3071,7 @@ input, select, textarea {
         }
         #stdy_mobile{            
             visibility: visible;
-			margin-bottom: -1em;
+			height: auto;
         }
             
             video {
@@ -3165,7 +3165,7 @@ input, select, textarea {
         }
         #stdy_mobile{            
             visibility: visible;
-            margin-bottom: -1em;
+            height: auto;
         }
 
 			h1 {
@@ -3286,7 +3286,7 @@ input, select, textarea {
         }
         #stdy_mobile{          
             visibility: visible;
-			margin-bottom: -1em;
+			height: auto;
         }
 
 		/* Header */
