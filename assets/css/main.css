@@ -3067,7 +3067,7 @@ input, select, textarea {
             margin-bottom: -1em;
         }
         #stdy_mobile{            
-            visibility: hidden;
+            visibility: visible;
             height: 0;
         }
             
@@ -3160,7 +3160,7 @@ input, select, textarea {
             margin-bottom: -1em;
         }
         #stdy_mobile{            
-            visibility: hidden;
+            visibility: visible;
             height: 0;
         }
 
