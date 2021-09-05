@@ -2976,7 +2976,7 @@ input, select, textarea {
 
 /* XLarge */
 
-	@media screen and (max-width: 1800px) {
+	@media screen and (min-width: 1281px) {
 
 		/* Basic */
 
@@ -2984,11 +2984,12 @@ input, select, textarea {
 				font-size: 12pt;
 			}
             #stdy_desk{
-            margin-bottom: -1em;
+                margin-bottom: -1em;
+	    		visibility: visible;
             }
             #stdy_mobile{            
                 visibility: hidden;
-                height: 0;
+				height: 0;
             }
 
 	}
@@ -3006,10 +3007,11 @@ input, select, textarea {
         
         #stdy_desk{
             margin-bottom: -1em;
+	    	visibility: visible;
         }
         #stdy_mobile{            
             visibility: hidden;
-            height: 0;
+			height: 0;
         }
         
             video {
@@ -3064,11 +3066,12 @@ input, select, textarea {
 			}
         
         #stdy_desk{
-            margin-bottom: -1em;
+	    	visibility: hidden;
+			height: 0;
         }
         #stdy_mobile{            
-            visibility: hidden;
-            height: 0;
+            visibility: visible;
+			height: auto;
         }
             
             video {
@@ -3157,11 +3160,12 @@ input, select, textarea {
 		/* Basic */
         
         #stdy_desk{
-            margin-bottom: -1em;
+	    	visibility: hidden;
+			height: 0;
         }
         #stdy_mobile{            
-            visibility: hidden;
-            height: 0;
+            visibility: visible;
+            height: auto;
         }
 
 			h1 {
@@ -3278,11 +3282,11 @@ input, select, textarea {
         
         #stdy_desk{
             visibility: hidden;
-            height: 0;
+			height: 0;
         }
         #stdy_mobile{          
             visibility: visible;
-            height: auto;
+			height: auto;
         }
 
 		/* Header */
