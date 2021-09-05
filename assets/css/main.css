@@ -2989,6 +2989,7 @@ input, select, textarea {
             }
             #stdy_mobile{            
                 visibility: hidden;
+				height: 0;
             }
 
 	}
@@ -3010,6 +3011,7 @@ input, select, textarea {
         }
         #stdy_mobile{            
             visibility: hidden;
+			height: 0;
         }
         
             video {
@@ -3065,6 +3067,7 @@ input, select, textarea {
         
         #stdy_desk{
 	    	visibility: hidden;
+			height: 0;
         }
         #stdy_mobile{            
             visibility: visible;
@@ -3158,6 +3161,7 @@ input, select, textarea {
         
         #stdy_desk{
 	    	visibility: hidden;
+			height: 0;
         }
         #stdy_mobile{            
             visibility: visible;
@@ -3278,6 +3282,7 @@ input, select, textarea {
         
         #stdy_desk{
             visibility: hidden;
+			height: 0;
         }
         #stdy_mobile{          
             visibility: visible;
