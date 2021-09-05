@@ -2976,7 +2976,7 @@ input, select, textarea {
 
 /* XLarge */
 
-	@media screen and (max-width: 1800px) {
+	@media screen and (min-width: 1281px) {
 
 		/* Basic */
 
@@ -2984,7 +2984,8 @@ input, select, textarea {
 				font-size: 12pt;
 			}
             #stdy_desk{
-            margin-bottom: -1em;
+                margin-bottom: -1em;
+	    	visibility: visible;
             }
             #stdy_mobile{            
                 visibility: hidden;
@@ -3006,6 +3007,7 @@ input, select, textarea {
         
         #stdy_desk{
             margin-bottom: -1em;
+	    visibility: visible;
         }
         #stdy_mobile{            
             visibility: hidden;
@@ -3065,6 +3067,7 @@ input, select, textarea {
         
         #stdy_desk{
             margin-bottom: -1em;
+	    visibility: hidden;
         }
         #stdy_mobile{            
             visibility: visible;
@@ -3158,6 +3161,7 @@ input, select, textarea {
         
         #stdy_desk{
             margin-bottom: -1em;
+	    visibility: hidden;
         }
         #stdy_mobile{            
             visibility: visible;
