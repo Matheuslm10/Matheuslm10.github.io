@@ -2985,11 +2985,10 @@ input, select, textarea {
 			}
             #stdy_desk{
                 margin-bottom: -1em;
-	    	visibility: visible;
+	    		visibility: visible;
             }
             #stdy_mobile{            
                 visibility: hidden;
-                height: 0;
             }
 
 	}
@@ -3007,11 +3006,10 @@ input, select, textarea {
         
         #stdy_desk{
             margin-bottom: -1em;
-	    visibility: visible;
+	    	visibility: visible;
         }
         #stdy_mobile{            
             visibility: hidden;
-            height: 0;
         }
         
             video {
@@ -3066,12 +3064,11 @@ input, select, textarea {
 			}
         
         #stdy_desk{
-            margin-bottom: -1em;
-	    visibility: hidden;
+	    	visibility: hidden;
         }
         #stdy_mobile{            
             visibility: visible;
-            height: 0;
+			margin-bottom: -1em;
         }
             
             video {
@@ -3160,12 +3157,11 @@ input, select, textarea {
 		/* Basic */
         
         #stdy_desk{
-            margin-bottom: -1em;
-	    visibility: hidden;
+	    	visibility: hidden;
         }
         #stdy_mobile{            
             visibility: visible;
-            height: 0;
+            margin-bottom: -1em;
         }
 
 			h1 {
@@ -3282,11 +3278,10 @@ input, select, textarea {
         
         #stdy_desk{
             visibility: hidden;
-            height: 0;
         }
         #stdy_mobile{          
             visibility: visible;
-            height: auto;
+			margin-bottom: -1em;
         }
 
 		/* Header */
